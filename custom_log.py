@@ -10,9 +10,6 @@ consoleHandler = logging.StreamHandler()
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 
 
-
-
-
 def custom_log_settings(logfile):
     """Set log format for file and console"""
     FILENAME = f'/path/to/logs/dir/{logfile}_{time.strftime("%Y%m%d")}.log'
